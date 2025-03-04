@@ -230,7 +230,7 @@ section {
     padding: 34px 29px;
     border-radius: 12px;
     background-color: #ffffff;
-    box-shadow: 0px 3px 14px #130A2E21;
+    box-shadow: 0px 3px 14px #AAAAAA;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -436,4 +436,76 @@ section {
     opacity: 60%;
 }
 
-/*----------------------------------     ------------------------------------*/
+/*----------------------------------Jet Performance------------------------------------*/
+.jet-performance {
+    height: 837px;
+}
+
+.jet-performance-container {
+    width: 100%;
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jet-performance-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #000;
+}
+
+.jet-performance-body {
+    width: 100%;
+    height: 566px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jet-performance-body > img{
+    width: 297px;
+    height: 328px;
+}
+
+.jet-performance-body-items {
+    width: 370px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jet-performance-body-item {
+    width: 100%;
+    height: 268px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 32px #AAAAAA;
+    text-align: center;
+    padding: 40px 52px;
+}
+
+.jet-performance-body-item-image img{
+    width: 55px;
+    height: 55px;
+}
+
+.jet-performance-body-item-title {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin: 13px 0 11px 0;
+}
+
+.jet-performance-body-item-text {
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: center;
+    opacity: 60%;
+}
+
+/*----------------------------------      ------------------------------------*/
