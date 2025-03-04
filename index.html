@@ -53,7 +53,87 @@
 			</div>
         </header>
 		<main class="page">
-			
+			<section class="ticket-order">
+				<div class="ticket-order-body __container">
+					<div class="ticket-order-container __container">
+						<div class="type-of-trip">
+							<div>
+								<label class="round-trip" for="round-trip">Round Trip</label>
+								<select name="round-trip" id="round-trip">
+									<option>Round Trip</option>
+									<option>In one direction</option>
+									<option>In the opposite direction</option>
+								</select>
+							</div>
+							<div>
+								<label class="flight-type" for="flight-type">Flight Type</label>
+								<select name="flight-type" id="flight-type">
+									<option>Regular flights</option>
+									<option>Charter flight</option>
+									<option>Low cost</option>
+								</select>
+							</div>
+							<div>
+								<label class="person" for="person">Person</label>
+								<select name="person" id="person">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</div>
+						<div class="travel-choice">
+							<div class="travel-choice-from">
+								<div class="travel-choice-title">From</div>
+								<div class="travel-choice-index">LAX</div>
+								<div class="travel-choice-adress">Los Angeles Intl Arpt,Los Angeles</div>
+							</div>
+							<button type="reset" class="travel-choice-button">
+								<img src="/img/reverse.png" alt="reverse">
+							</button>
+							<div class="travel-choice-to">
+								<div class="travel-choice-title">To</div>
+								<div class="travel-choice-index">MIA</div>
+								<div class="travel-choice-adress">Miami Intl,Miami</div>
+							</div>
+							<div class="travel-choice-date">
+								<div class="travel-choice-date-departure">
+									<div class="travel-choice-date-title">Departure</div>
+									<div class="travel-choice-date-choice">
+										<div class="travel-choice-date-value">Fri 15 Oct</div>
+										<button type="reset" class="travel-choice-date-button">
+											<img src="/img/calendar.png" alt="calendar">
+										</button>
+									</div>
+									<div class="travel-choice-date-buttons">
+										<button type="reset" class="travel-choice-date-btn__prev">Prev</button>
+										<button type="reset" class="travel-choice-date-btn__next">Next</button>
+									</div>
+								</div>
+								<div class="travel-choice-date-return">
+									<div class="travel-choice-date-title">Return</div>
+									<div class="travel-choice-date-choice">
+										<div class="travel-choice-date-value">Tue 19 Oct</div>
+										<button type="reset" class="travel-choice-date-button">
+											<img src="/img/calendar.png" alt="calendar">
+										</button>
+									</div>
+									<div class="travel-choice-date-buttons">
+										<button type="reset" class="travel-choice-date-btn__prev">Prev</button>
+										<button type="reset" class="travel-choice-date-btn__next">Next</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="requirements">
+							<a href="#">Add Requirements</a>
+						</div>
+					</div>
+					<button type="reset" class="ticket-order-body-button button--blue">Book Flights →</button>
+				</div>
+			</section>
 		</main>
     </div>
 </body>

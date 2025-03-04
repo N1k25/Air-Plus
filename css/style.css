@@ -213,3 +213,151 @@ section {
     height: 451px;
 }
 
+/*----------------------------------Ticket Order------------------------------------*/
+.ticket-order-body{
+    width: 100%;
+    height: 306px;
+    margin: -215px 0 0 0;
+}
+
+.ticket-order {
+    height: 306px;
+}
+
+.ticket-order-container {
+    width: 100%;
+    height: 266px;
+    padding: 34px 29px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 14px #130A2E21;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.type-of-trip {
+    display: flex;
+}
+
+.round-trip,
+.flight-type,
+.person {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+#round-trip,
+#flight-type,
+#person {
+    height: 24px;
+    margin: 0 20px 0 0;
+}
+
+.travel-choice {
+    height: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.travel-choice-from,
+.travel-choice-to {
+    height: 100%;
+    width: 300px;
+    border: 1px solid #AAAAAA;
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+
+.travel-choice-title,
+.travel-choice-date-title {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    opacity: 60%;
+}
+
+.travel-choice-index,
+.travel-choice-date-value {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.travel-choice-adress {
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 60%;
+}
+
+.travel-choice-button {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.travel-choice-date {
+    display: flex;
+    justify-content: space-between;
+    width: 381px;
+    height: 100%;
+    border: 1px solid #AAAAAA;
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+
+.travel-choice-date-departure,
+.travel-choice-date-return {
+    width: 156px;
+    height: 86px;
+}
+
+.travel-choice-date-choice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.travel-choice-date-button {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+}
+
+.travel-choice-date-buttons {
+    display: flex;
+    gap: 44px;
+}
+
+.travel-choice-date-btn__prev,
+.travel-choice-date-btn__next{
+    width: 32px;
+    height: 21px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 60%;
+}
+.travel-choice-date-btn__prev:hover,
+.travel-choice-date-btn__next:hover {
+    text-decoration: underline;
+}
+
+.requirements a{
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: underline;
+    color: #151515;
+}
+
+.ticket-order-body-button{
+    width: 233px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 27px;
+    margin: -50% 0 0 41%;
+}
+    
+/*----------------------------------     ------------------------------------*/
