@@ -360,4 +360,80 @@ section {
     margin: -50% 0 0 41%;
 }
     
+/*----------------------------------Private Jet------------------------------------*/
+.private-jet {
+    height: 1215px;
+    position: relative;
+}
+
+.bcg-left{
+    width: 400px;
+    height: 523px;
+    background-color: #E5F4F6;
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    z-index: -6;
+}
+
+.bcg-reight{
+    width: 400px;
+    height: 523px;
+    background-color: #E5F4F6;
+    border-radius: 50px 0 0 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -6;
+}
+
+.private-jet-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.private-jet-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #000;
+}
+
+.private-jet-charter {
+    width: 100%;
+    height: 523px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.private-jet-charter img{
+    width: 589px;
+    height: 392px;
+}
+
+.private-jet-charter-body {
+    width: 463px;
+}
+
+.private-jet-charter-body-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    margin: 0 0 14px 0;
+}
+
+.private-jet-charter-body-text {
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: justify;
+    opacity: 60%;
+}
+
 /*----------------------------------     ------------------------------------*/
