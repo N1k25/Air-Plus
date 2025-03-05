@@ -366,6 +366,17 @@ section {
     position: relative;
 }
 
+.circle-1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #e6e4e4;
+    position: absolute;
+    left: 48%;
+    top: 5px;
+    z-index: -1;
+}
+
 .bcg-left{
     width: 400px;
     height: 523px;
@@ -439,6 +450,18 @@ section {
 /*----------------------------------Jet Performance------------------------------------*/
 .jet-performance {
     height: 837px;
+    position: relative;
+}
+
+.circle-2{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #e6e4e4;
+    position: absolute;
+    left: 48.5%;
+    top: 80px;
+    z-index: -1;
 }
 
 .jet-performance-container {
@@ -515,6 +538,17 @@ section {
     background-size: contain;
     background-position: left 450px top 85px;
     background-repeat: no-repeat;
+    position: relative;
+}
+.circle-3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e6e4e4;
+    position: absolute;
+    left: 48.5%;
+    top: 5px;
+    z-index: -1;
 }
 
 .luxury-charters-container {
@@ -567,6 +601,18 @@ section {
 .membership {
     height: 949px;
     align-items: flex-start;
+    position: relative;
+}
+
+.circle-4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e6e4e4;
+    position: absolute;
+    left: 48.5%;
+    top: 7px;
+    z-index: -1;
 }
 
 .membership-container {
@@ -724,7 +770,6 @@ section {
 .footer-menu__item:hover{
     text-decoration: underline;
 }
-
 
 .footer-copyright {
     font-size: 14px;
